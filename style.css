@@ -27,7 +27,8 @@ body::-webkit-scrollbar-thumb {
 
 
 .wrapper {
-    background-color:  rgb(100, 16, 145);;
+    background-color:  rgb(100, 16, 145);
+    width: 100%;
 }
 
 /* parte do head do portifollio => inicio */
@@ -39,7 +40,7 @@ body::-webkit-scrollbar-thumb {
     justify-content: flex-end;
     gap: 15px;
     padding: 15px;
-    
+    width: 100%;
     background-color: #240847;
     box-shadow: 0px 0px 8px 4px #0c0b0c;
     /* margin-right: 40px; */
@@ -133,6 +134,7 @@ h3 {
 }
 
 .sobre {
+    width: 100%;
     margin-top: -60px;
     display: flex;
     align-items: center;
@@ -154,6 +156,27 @@ h3 {
 .texto-sobre {
     text-indent: 1%;
 }
+
+.cv-down{
+    position: absolute;
+    width: 120px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #000000d6;
+    border: 1px solid #000000;
+    color: #ffffff;
+    transition: ease .5s;
+    transform: skew(-15deg);
+    margin-top: 15px;
+}
+
+.cv-down:hover {
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    color: #000000;
+    box-shadow: 0px 0px 8px 4px #987498;
+}
+
 
 
 /* parte dos projetos */
@@ -241,6 +264,7 @@ h3 {
     transform: skew(-15deg);
 
 }
+
 
 .link-projeto:hover {
     border: 1px solid #FFFFFF;
@@ -368,4 +392,16 @@ h3 {
 .parte-final p {
  margin-top: 30px;
  color: #FFFFFF;
+}
+
+/* animação scrollreaveal */
+
+.header-do-read,
+.head-container,
+.title,
+.texto-sobre,
+.sobre-image,
+.card-projetos,
+.card-icons{
+    visibility: hidden;
 }
