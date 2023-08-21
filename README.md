@@ -13,6 +13,7 @@
 <h2>Descrição📃</h2>
 <p>Esse é o projeto do meu portifólio, ele consiste em uma pagina na qual eu apresento meu trabalho e deixo links das aplicações online,
   também falo um pouco sobre quem eu sou e oque faço.</p>
+
 <h2>Executando na Maquina⚙️</h2>
 <p>Para executar este projeto basta abrir o terminal e digitar git clone copiar e colar o link (https://github.com/Wanndeko/Novo-portifolio.git) e teclar enter. Com o projeto aberto,
 vá ate o arquivo index.html clique com o botão direito do mouse e selecione a opção "open with live server", caso esta opção não apareça, instale a extensão live server no editor de codigo.</p>
