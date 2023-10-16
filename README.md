@@ -12,7 +12,8 @@
 
 <h2>Descrição📃</h2>
 <p>Esse é o projeto do meu portifólio, ele consiste em uma pagina na qual eu apresento meu trabalho e deixo links das aplicações online,
-  também falo um pouco sobre quem eu sou e oque faço.</p>
+  também falo um pouco sobre quem eu sou e oque faço.</p><br>
+<p><a href=https://wanndeko.github.io/Novo-portifolio/ target="blank">Link do projeto online 🚀 </a></p>
 
 <h2>Executando na Maquina⚙️</h2>
 <p>Para executar este projeto basta abrir o terminal e digitar git clone copiar e colar o link (https://github.com/Wanndeko/Novo-portifolio.git) e teclar enter. Com o projeto aberto,
