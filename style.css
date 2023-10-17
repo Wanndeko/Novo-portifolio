@@ -261,13 +261,11 @@ h4{
 }
 
 .caixa-descrição {
-    margin-top: 0.5rem;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    margin-bottom: 1rem;
 }
 
 .title-project{
@@ -298,12 +296,7 @@ h4{
 
 
 .card-projetos p {
-    padding: 0.5rem;
-    font-size: 14px;
-    text-align: start;
-    overflow-y: auto;
-    height: 100px;
-    max-width: 95%;
+    color: var(--text-color);
 }
 
 
