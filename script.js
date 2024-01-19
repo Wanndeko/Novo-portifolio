@@ -22,7 +22,7 @@ reset:false
 sr.reveal('.sobre-image', { 
     duration: 2000,
     delay:200,
-    origin:'right',
+    origin:'top',
     distance:'50px',
     reset:false
 });
