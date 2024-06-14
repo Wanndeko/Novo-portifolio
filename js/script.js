@@ -30,9 +30,6 @@ sr.reveal('.sobre-image', {
 sr.reveal('.card-projetos', { 
     duration: 2000,
     delay:200,
-    // distance: '80px',
-    // origin: 'top',
-    // rotate: { x: 90, y: 80, z: 50},
     reset:false
 });
 
