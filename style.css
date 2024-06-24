@@ -88,6 +88,7 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     z-index: 99;
     user-select: none;
+    filter: drop-shadow(2px 4px 6px var(--secondary-color));
 }
 
 .eu-head {
@@ -100,7 +101,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 h1 {
-   font-size: 2.5rem;
+   font-size: 3.125rem;
    color: var(--text-color);
 }
 
@@ -110,7 +111,7 @@ h3 {
 }
 
 h4{
-    font-size: 1.4rem;
+    font-size: 1.625rem;
 }
 
 .title{
